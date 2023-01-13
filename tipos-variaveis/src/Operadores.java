@@ -1,17 +1,11 @@
 public class Operadores {
     public static void main(String[] args) {
-        // int numero = 5;
+        int a, b;
+        a = 6;
+        b = 6;
 
-        // Repetição:
-        // numero++;
-        // //numero = numero + 1;
+        String resultado = a == b ? "verdadeiro" : "falso";
 
-        // System.out.println(++ numero);
-
-        boolean variavel = true;
-
-        variavel = !variavel;
-
-        System.out.println(variavel);
+        System.out.println(resultado);
     }
 }
