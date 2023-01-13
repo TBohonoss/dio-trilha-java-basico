@@ -1,7 +1,13 @@
 public class Operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "Thiago " + "Bohonos";
+        int numero = 10;
 
-        System.out.println(nomeCompleto);
+        numero = - numero;
+
+        System.out.println(numero);
+
+        numero = numero* -1;
+
+        System.out.println(numero);
     }
 }
