@@ -1,11 +1,15 @@
 public class Operadores {
     public static void main(String[] args) {
-        int a, b;
-        a = 6;
-        b = 6;
+        boolean condicao1 = true;
 
-        String resultado = a == b ? "verdadeiro" : "falso";
+        boolean condicao2 = false;
 
-        System.out.println(resultado);
+        String resultado1 = condicao1 && condicao2 ? "verdadeiro" : "falso";
+       
+        System.out.println(resultado1);
+
+        String resultado2 = condicao1 || condicao2 ? "verdadeiro" : "falso";
+
+        System.out.println(resultado2);
     }
 }
